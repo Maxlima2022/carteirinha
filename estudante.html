@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Responsiva</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: 	#FFFAFA;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0000FF;
+            padding: 10px;
+        }
+
+        nav a {
+            color: 	#FFFAFA;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        @media screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
+        }
+        img{
+            width: 147px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png">
+        <h2>Olá, Jackxwell!
+            carteirinha do estudante!</h2>
+    </header>
+
+    <nav>
+        <a href="#">Curso: SISTEMAS DE INFORMAÇÃO</a>
+        <a href="#">Unidade: CAMPUS VERGUEIRO</a>
+        <a href="#">Série: 02 | Turma: A | Turno: NOTURNO</a>
+    </nav>
+
+    <section>
+        <div class="profile-picture">
+            <img src="perfil.jpeg" alt="Sua Foto de Perfil">
+        </div><h2>Acesse o QrCode</h2><p><p>
+    <center><img src=""></center>
+    </section>
+
+</body>
+</html>
